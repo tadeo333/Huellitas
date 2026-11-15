@@ -1,0 +1,14 @@
+{
+  "name": "huellitas",
+  "version": "1.0.0",
+  "description": "Expediente digital y cartilla de vacunación para tus perros",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.5.0",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
